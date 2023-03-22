@@ -35,7 +35,7 @@ A Task consists of implementing Hamming Code on a web page with backend support,
 
 ## Prerequisite 
 
-- Tomcat Server, JDK 1.8 
+- Tomcat Server, Java SE 8 (JDK 1.8)
 
 ## Installation to Run Locally
 
