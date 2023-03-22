@@ -3,9 +3,11 @@
 A Task consists of implementing Hamming Code on a web page with backend support, which is used to Encode bitstream and Decodes it into original bitstream even if errors occurred in certain limit. It can detect 2 bit error and correct a single bit error in each group (depends on version of HC applied) if may occur while transmission of data. <br/>
 
 
+
 ## Prerequisite 
 
 - Tomcat Server, Java SE 8 (JDK 1.8)
+
 
 ## Installation to Run Locally
 
@@ -25,6 +27,7 @@ git clone < repo link >
  >> home.jsp
 
 ```
+
 
 URL - http://localhost:8080/ErrorDetectionNCorrection/homeServelet
 
