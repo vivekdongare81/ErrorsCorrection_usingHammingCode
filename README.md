@@ -11,7 +11,7 @@ A Task consists of implementing Hamming Code on a web page with backend support,
 ![image](https://user-images.githubusercontent.com/74758376/226929299-76fb183d-1c0c-40af-8b67-59eb1ff344e3.png)
 
 - Result will appear as Encoded bitstream with other req details.
-![image](https://user-images.githubusercontent.com/74758376/226929702-80cb587f-bf86-421b-b735-98438d03eb9b.png)
+![image](https://user-images.githubusercontent.com/74758376/226933917-fc7afdd2-7727-4ba3-85ab-cc523ff84a77.png)
 
   
         *** Suppose the error occured in Encoded stream due to Transmission or any other cause. 1111010010 --> 1011010110 ***
@@ -33,10 +33,7 @@ A Task consists of implementing Hamming Code on a web page with backend support,
 
 ## Prerequisite 
 
-- Node.js runtime environment 
-     
-     node -v  (to check Node.js is installed) 
-- WebDriver of Browsers Installed - Chrome, Microsoft Edge, Firefox 
+- Tomcat Server, JDK  
 
 
 ## Webdrivers
@@ -53,14 +50,6 @@ A Task consists of implementing Hamming Code on a web page with backend support,
 ![image](https://user-images.githubusercontent.com/74758376/170932144-40f6f187-fea2-46d2-8725-c8b5bca77f2e.png)
 
 
-## Used Library / tools with supported browsers
-
-| Library / Tools             |  Browsers                                                               |
-| ----------------- | ------------------------------------------------------------------ |
-| Selenium  |  Chrome, Firefox, Microsoft Edge |
-| Playwright|  Chrome, Firefox, Webkit |
-| Puppeteer |  Chrome, Microsoft Edge | |
-
 
 ## Installation to Run Locally
 
@@ -74,32 +63,17 @@ git clone < repo link >
 ```
 
 
-  -  Step 2 - Install required Dependencies 
+  -  Step 2 - Run home.jsp with Tomcat server 
 
 ```bash
-  npm install --save
+ >> home.jsp
 
 ```
 ![image](https://user-images.githubusercontent.com/74758376/170021068-62a60db1-28f2-4850-a123-d4415c7e5378.png)
 
- -  Step 3 - Run the project
+URL - [http://localhost:8080/ErrorDetectionNCorrection/homeServelet]
 
-```bash
-  node index 
-
-```
-
-
-
-  -  Step 4 - Open admin panel to analysis test results 
-
-```bash
-  node admin 
-
-```
-URL - https://localhost:3000/admin
-
-## Documentations
+## References 
 
 - [Selenium](https://www.selenium.dev/documentation)
 - [Playwright](https://playwright.dev/docs/intro)
