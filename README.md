@@ -66,7 +66,7 @@ URL - http://localhost:8080/ErrorDetectionNCorrection/homeServelet
 
 ## References 
 
-- [Wikipedia ]([https://www.selenium.dev/documentation](https://en.wikipedia.org/wiki/Hamming_code))
+- [Wikipedia]([https://www.selenium.dev/documentation](https://en.wikipedia.org/wiki/Hamming_code))
 
 
 
