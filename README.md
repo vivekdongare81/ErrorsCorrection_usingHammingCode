@@ -50,6 +50,7 @@ URL - http://localhost:8080/ErrorDetectionNCorrection/homeServelet
         *** Suppose the error occured in Encoded stream due to Transmission or any other cause. 1111010010 --> 1011010110 ***
         
  .
+ 
         * CASE 1:  Resulted output is Original Bitstream after correcting single errors.
         
  ![image](https://user-images.githubusercontent.com/74758376/226930926-d536ad38-54d5-4be1-a89a-4f696a2e7db8.png)
