@@ -26,7 +26,7 @@ git clone < repo link >
 
 ```
 
-URL - [http://localhost:8080/ErrorDetectionNCorrection/homeServelet]
+URL - (http://localhost:8080/ErrorDetectionNCorrection/homeServelet)[http://localhost:8080/ErrorDetectionNCorrection/homeServelet]
 
 
 ## Demo
@@ -46,6 +46,7 @@ URL - [http://localhost:8080/ErrorDetectionNCorrection/homeServelet]
   
         *** Suppose the error occured in Encoded stream due to Transmission or any other cause. 1111010010 --> 1011010110 ***
         
+
 
         * CASE 1:  Resulted output is Original Bitstream after correcting single errors.
         
