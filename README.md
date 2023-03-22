@@ -1,32 +1,35 @@
 # ErrorsCorrection_usingHammingCode
 
-A Task consists of implementing Hamming Code on a web page with backend support,which is used to Encode bitstream and Decodes into original bitstream even if errors occurred in certain limit.It can detect 2 bit error and correct a single bit error in each group(depends on version of HC applied) if may occur while transmission of data. <br/>
+A Task consists of implementing Hamming Code on a web page with backend support, which is used to Encode bitstream and Decodes it into original bitstream even if errors occurred in certain limit. It can detect 2 bit error and correct a single bit error in each group (depends on version of HC applied) if may occur while transmission of data. <br/>
 
 ## Demo
 
-- Select versions from checklist which you want to apply while Encoding bitstream 
-![image](https://user-images.githubusercontent.com/74758376/226925812-3ea0133d-8c2d-488e-aa74-841c7e8c95a4.png)
+- Select version of Hamming code from checklist to be used to Encode Bitstream. 
+![image](https://user-images.githubusercontent.com/74758376/226928789-ed83e771-6ec3-4b92-87eb-5b5a4e465122.png)
 
-- Setup a tools and browsers in config.json as per requirements and run project to perform web automation tasks on all supported browsers respectively.
+- Input bitstream to be Encoded and press ENCODE.
+![image](https://user-images.githubusercontent.com/74758376/226929299-76fb183d-1c0c-40af-8b67-59eb1ff344e3.png)
 
-![image](https://user-images.githubusercontent.com/74758376/170940938-534ae94f-9452-4f4e-b336-a319dc030d40.png)
+- Result will appear as Encoded bitstream with other req details.
+![image](https://user-images.githubusercontent.com/74758376/226929702-80cb587f-bf86-421b-b735-98438d03eb9b.png)
 
   
-        * Browse to given URL to record the tools-browser which gets detected.
+        *** Suppose the error occured in Encoded stream due to Transmission or any other cause. 1111010010 --> 1011010110 ***
         
-![image](https://user-images.githubusercontent.com/74758376/170940621-4bc505c5-cf1c-4bf2-99ee-a3814f4abb67.png)
+![image](https://user-images.githubusercontent.com/74758376/226930926-d536ad38-54d5-4be1-a89a-4f696a2e7db8.png)
 
-      * Take a Screenshot of pages on GET URL using tool, parallelly save the results in Database to analyze the data. 
+        * CASE 1:  Resulted output is Original Bitstream after correcting single errors.
+        
+ ![image](https://user-images.githubusercontent.com/74758376/226930926-d536ad38-54d5-4be1-a89a-4f696a2e7db8.png)
+ 
+ ![image](https://user-images.githubusercontent.com/74758376/226932485-7c209de9-9214-4c31-921a-5d56438fbb6b.png)
 
-![image](https://user-images.githubusercontent.com/74758376/170940348-101414d9-555f-4a76-be98-61daf28ef342.png)
+        * CASE 2:  Resulted output as Double error detected,can't decode further (Gives Total no of Errors detected).
 
-     * Analyze Results according to date performed in Admin Panel.
-![image](https://user-images.githubusercontent.com/74758376/170940792-655e3c53-6bc7-4854-935e-fba8a5fc063f.png)
+![image](https://user-images.githubusercontent.com/74758376/226933403-0f0f2ec9-03d4-4e73-a579-f77027785a7b.png)
 
+![image](https://user-images.githubusercontent.com/74758376/226933369-14afe581-f635-42b0-b8e5-2c3bd61f6038.png)
 
-- All Combinations of Tool-Browser with their test Status will be recorded in results.json
-
-![image](https://user-images.githubusercontent.com/74758376/170771018-da3193f9-9623-47a5-a2d1-848b0d1b853c.png)
 
 ## Prerequisite 
 
