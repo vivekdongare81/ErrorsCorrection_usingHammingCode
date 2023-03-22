@@ -66,9 +66,8 @@ URL - http://localhost:8080/ErrorDetectionNCorrection/homeServelet
 
 ## References 
 
-- [Selenium](https://www.selenium.dev/documentation)
-- [Playwright](https://playwright.dev/docs/intro)
-- [Puppeteer](https://pptr.dev)
+- [Wikipedia ]([https://www.selenium.dev/documentation](https://en.wikipedia.org/wiki/Hamming_code))
+
 
 
 
