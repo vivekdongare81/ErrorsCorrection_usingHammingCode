@@ -51,7 +51,7 @@ URL - http://localhost:8080/ErrorDetectionNCorrection/homeServelet
         
  .
  
-        * CASE 1:  Resulted output is Original Bitstream after correcting single errors.
+        * CASE 1:  Resulted output is Original Bitstream after correcting single errors.(in every block of 4 bits as per HC 7,4 )
         
  ![image](https://user-images.githubusercontent.com/74758376/226930926-d536ad38-54d5-4be1-a89a-4f696a2e7db8.png)
  
