@@ -47,9 +47,9 @@ URL - http://localhost:8080/ErrorDetectionNCorrection/homeServelet
 ![image](https://user-images.githubusercontent.com/74758376/226933917-fc7afdd2-7727-4ba3-85ab-cc523ff84a77.png)
 
   
-        *** Suppose the error occured in Encoded stream due to Transmission or any other cause. 1111010010 --> 1011010110 ***
+        *** Suppose the error occured in Encoded stream due to Transmission or any other cause.  ***
         
- .
+ 1111010010 --> 1011010110
  
         * CASE 1:  Resulted output is Original Bitstream after correcting single errors.(in every block of 4 bits as per HC 7,4 )
         
